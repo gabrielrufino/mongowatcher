@@ -16,6 +16,22 @@ async function main() {
   const client = new MongoClient(program.uri)
 
   await client.connect()
+
+  const db = client.db()
+
+  const collections = await db
+    .listCollections()
+
+  collections.each((error, collection) => {
+    if (!error && collection) {
+      db
+        .collection(collection.name)
+        .watch()
+        .on('change', next => {
+          console.log(next)
+        })
+    }
+  })
 }
 
 main()
