@@ -13,7 +13,9 @@ program
   .parse(process.argv)
 
 async function main() {
-  console.log(program.uri)
+  const client = new MongoClient(program.uri)
+
+  await client.connect()
 }
 
 main()
