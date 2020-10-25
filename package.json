@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielrufino/mongowatcher.git"
+    "url": "git+https://github.com/gabrielrufino/mwatcher.git"
   },
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabrielrufino/mongowatcher/issues"
+    "url": "https://github.com/gabrielrufino/mwatcher/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/mongowatcher#readme",
+  "homepage": "https://github.com/gabrielrufino/mwatcher#readme",
   "dependencies": {
     "commander": "^6.2.0"
   }
