@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/gabrielrufino/mwatcher#readme",
   "dependencies": {
-    "commander": "^6.2.0"
+    "commander": "^6.2.0",
+    "mongodb": "^3.6.2"
   }
 }
