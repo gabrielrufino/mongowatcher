@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabrielrufino/mongowatcher/issues"
   },
-  "homepage": "https://github.com/gabrielrufino/mongowatcher#readme"
+  "homepage": "https://github.com/gabrielrufino/mongowatcher#readme",
+  "dependencies": {
+    "commander": "^6.2.0"
+  }
 }
